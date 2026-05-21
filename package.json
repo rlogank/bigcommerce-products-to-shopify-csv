@@ -1,0 +1,23 @@
+{
+  "name": "bigcommerce-products-to-shopify-csv",
+  "version": "1.0.0",
+  "description": "Export BigCommerce products to Shopify's product import CSV format.",
+  "main": "src/export-products.js",
+  "scripts": {
+    "start": "node src/export-products.js",
+    "export": "node src/export-products.js"
+  },
+  "keywords": [
+    "bigcommerce",
+    "shopify",
+    "migration",
+    "csv"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.0",
+    "dotenv": "^16.5.0",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
